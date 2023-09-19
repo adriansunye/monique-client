@@ -1,6 +1,4 @@
 import {
-  chevronDownIcon,
-  chevronRightIcon,
   searchIcon,
   heartIcon,
   cartIcon,
@@ -20,57 +18,13 @@ export default /*html*/ `
       </button>
       <div class="collapse navbar-collapse" id="navbarScroll">
         <ul class="navbar-nav me-auto ms-lg-5" style="--bs-scroll-height: 100px;">
-          <li class="nav-item dropdown hover-menu">
-            <div class="d-flex justify-content-between">
-              <a class="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">HOME 
-                <span class="d-none d-lg-inline-block">${chevronDownIcon}</span>
-              </a>
-              <button class="btn btn-dark d-block d-lg-none my-1">
-                <span class="closed-icon">${chevronRightIcon}</span>
-                <span class="opened-icon">${chevronDownIcon}</span>
-              </button>
-            </div>
-            <ul class="dropdown-menu"></ul>
-          </li>
+          <li id="home-nav-item" class="nav-item dropdown hover-menu"></li>
           <hr class="d-block d-lg-none">
-          <li class="nav-item dropdown hover-menu">
-            <div class="d-flex justify-content-between">
-              <a class="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">SHOP 
-                <span class="d-none d-lg-inline-block">${chevronDownIcon}</span>
-              </a>
-              <button class="btn btn-dark d-block d-lg-none my-1">
-                <span class="closed-icon">${chevronRightIcon}</span>
-                <span class="opened-icon">${chevronDownIcon}</span>
-              </button>
-            </div>
-            <ul class="dropdown-menu"></ul>
-          </li>
+          <li id="shop-nav-item" class="nav-item dropdown hover-menu"></li>
           <hr class="d-block d-lg-none">
-          <li class="nav-item dropdown hover-menu">
-            <div class="d-flex justify-content-between">
-              <a class="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">BLOG 
-                <span class="d-none d-lg-inline-block">${chevronDownIcon}</span>
-              </a>
-              <button class="btn btn-dark d-block d-lg-none my-1">
-                <span class="closed-icon">${chevronRightIcon}</span>
-                <span class="opened-icon">${chevronDownIcon}</span>
-              </button>
-            </div>
-            <ul class="dropdown-menu"></ul>
-          </li>
+          <li id="blog-nav-item" class="nav-item dropdown hover-menu"></li>
           <hr class="d-block d-lg-none">
-          <li class="nav-item dropdown hover-menu">
-            <div class="d-flex justify-content-between">
-              <a class="nav-link " role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">PAGES 
-                <span class="d-none d-lg-inline-block">${chevronDownIcon}</span>
-              </a>
-              <button class="btn btn-dark d-block d-lg-none my-1">
-                <span class="closed-icon">${chevronRightIcon}</span>
-                <span class="opened-icon">${chevronDownIcon}</span>
-              </button>
-            </div>
-            <ul class="dropdown-menu"></ul>
-          </li>
+          <li id="pages-nav-item" class="nav-item dropdown hover-menu"></li>
           <hr class="d-block d-lg-none">
           <li class="nav-item">
             <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">CONTACT US</a>

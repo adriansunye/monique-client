@@ -12,6 +12,7 @@
     font-family: Inter, sans-serif;
 }
 
+
 .dropdown:hover>.dropdown-menu,
 .dropend:hover>.dropdown-menu {
     display: block;

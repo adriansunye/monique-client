@@ -3,13 +3,12 @@ export function setupHoverMenu(element) {
     let menuOptions = [];
     switch (element.text().replace(/\s/g, '')) {
       case "HOME":
-        console.log(menuOptions)
         menuOptions.push("New Products",
           "Best Sellers",
           "Coming Soon"
         )
         break;
-        
+
       case "SHOP":
         menuOptions.push("Pricing Table",
           "Our Gift Vouchers",
