@@ -4,8 +4,12 @@ import header_navigation from './src/components/navigation/header_navigation/hea
     
 $(document).ready(function(){  
   $('#app').append(
-    $(header_navigation)
+    header_navigation,
   );
+
+  /*$("nav .chevronDown").each(function() {
+    getChevronIcon($( this ))
+  });*/
 });
 
 
