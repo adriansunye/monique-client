@@ -15,5 +15,12 @@
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.1",
     "jquery": "^3.7.1"
-  }
+  },
+  "imports": {
+    "#assets/*": "./public/assets/*",
+    "#components": "./src/xomponents/*",
+    "#modules/*": "./src/modules/*",
+    "#views/*": "./src/views/*",
+    "#*": "./src/*"
+}
 }
