@@ -1,0 +1,45 @@
+.navbar-toggler>.close {
+    display: inline;
+}
+
+.navbar-toggler.collapsed>.close,
+.navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+    display: none;
+}
+
+.dropdown .dropdown-menu {
+    display: none;
+    font-family: Inter, sans-serif;
+}
+
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+    margin-left: 0.125em;
+}
+
+@media screen and (min-width: 769px) {
+    .dropend:hover>.dropdown-menu {
+        position: absolute;
+        top: 0;
+        left: 100%;
+    }
+
+    .dropend .dropdown-toggle {
+        margin-left: 0.5em;
+    }
+}
+
+.dropdown .opened-icon, 
+.dropdown:hover .closed-icon {
+    display: none;
+}
+
+.dropdown:hover .opened-icon{
+    display: block;
+}
+
+.navbar-collapse hr {
+    margin: 0.25rem
+}
