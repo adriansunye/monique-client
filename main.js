@@ -1,28 +1,14 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './src/modules/counter/counter'
-import { setupHoverMenu } from './src/modules/hover_menu/hover_menu.js'
+import $ from "./src/modules/jquery_module.js"
+import header_navigation from './src/components/navigation/header_navigation/header_navigation.js'
+    
+$(document).ready(function(){  
+  $('#app').append(
+    $(header_navigation)
+  );
+});
 
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-      <button id="hoverMenu" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
 
-setupCounter(document.querySelector('#counter'))
-setupHoverMenu(document.querySelector('#hoverMenu'))
+
+
