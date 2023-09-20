@@ -1,7 +1,7 @@
 import {
     chevronDownIcon,
     chevronRightIcon,
-} from '../style_applier/get_icons.js'
+} from '#modules/style_applier/get_icons.js'
 
 export function setupNavigationItems (element) {
     
