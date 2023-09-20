@@ -23,7 +23,6 @@ export function setupColorOption(colors) {
             )
             
         });
-        console.log( $("img.productImage").prop("src"))
 
     }
 
