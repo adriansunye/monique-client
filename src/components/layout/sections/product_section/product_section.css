@@ -1,0 +1,38 @@
+
+#inlineRadioGrey,
+#inlineRadioGrey:checked {
+    background-color: grey;
+}
+
+#inlineRadioPurple,
+#inlineRadioPurple:checked {
+    background-color: pink;
+}
+
+.titles-container{
+    max-width: 500px;
+}
+
+.product {
+    width: 90%;
+}
+
+.baby, .weigth {
+    width: 30%;
+    height: 75%;
+}
+
+.video-hero-image { 
+    position: relative; 
+}
+.video-hero-image img { 
+    display: block; 
+}
+.video-hero-image button { 
+    position: absolute; 
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+}

@@ -17,7 +17,8 @@
     "jquery": "^3.7.1"
   },
   "imports": {
-    "#assets/*": "./public/assets/*",
+    "#assets/*": "./assets/*",
+    "#api/*": "./src/api/*",
     "#components": "./src/xomponents/*",
     "#modules/*": "./src/modules/*",
     "#views/*": "./src/views/*",

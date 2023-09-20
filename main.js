@@ -4,6 +4,7 @@ import header_navigation from '#components/navigation/header_navigation/header_n
 import product_section from '#components/layout/sections/product_section/product_section'
 import { setupHoverMenu } from '#modules/hover_menu/hover_menu';
 import { setupNavigationItems } from '#modules/navigation_items/navigation_items';
+import { getProductInfo } from '#api/product_api'
     
 $(document).ready(function(){  
   $('#header_navigation').append(
@@ -18,6 +19,9 @@ $(document).ready(function(){
   $('#product_section').append(
     product_section
   );
+
+ 
+  getProductInfo( $('#product_section'))
 });
 
 
