@@ -23,5 +23,5 @@
     "#modules/*": "./src/modules/*",
     "#views/*": "./src/views/*",
     "#*": "./src/*"
-}
+  }
 }

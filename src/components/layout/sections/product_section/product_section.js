@@ -21,8 +21,7 @@ export default /*html*/ `
                     </div>
                     <div class="d-flex flex-column">
                         <h6 class="text-muted">Color</h6>
-                        <div class="d-flex flex-row" id="productColors">
-                        </div>
+                        <div class="d-flex flex-row" id="productColors"></div>
                     </div>
                 </div>
                 <div class="d-flex flex-row justify-content-center">
@@ -31,7 +30,7 @@ export default /*html*/ `
                 </div>
             </div>
             <div class="d-flex justify-content-center">
-                <img class="product" src="${product}">
+                <img class="productImage" src="${product}">
 			</div>
         </div>
         <div class="d-flex flex-column gap-3 mt-5">

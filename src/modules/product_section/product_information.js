@@ -12,7 +12,5 @@ export function setupProductInformation(info) {
             )
         });
     }
-
     setProductInformation();
-
 }

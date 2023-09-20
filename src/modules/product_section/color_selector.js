@@ -1,4 +1,7 @@
 import $ from "#modules/jquery_module.js"
+import product from '#assets/images/product.png'
+import productPurple from '#assets/images/product-lilac.png'
+
 
 export function setupColorOption(colors) {
     const setColorOption = () => {
@@ -9,10 +12,22 @@ export function setupColorOption(colors) {
                 <input class="form-check-input" type="radio" ${index === 0 ? 'checked' : ''} 
                     name="inlineRadioOptions" id="${idRadio}" value="${color}">
             </div>`
+            );
+
+            $(`#${idRadio}`).click(() => 
+                $("img.productImage").prop("src", 
+                    $(`#${idRadio}`).prop('value') === 'grey' ? 
+                    product : 
+                    productPurple
+                ),
             )
+            
         });
+        console.log( $("img.productImage").prop("src"))
+
     }
 
     setColorOption();
+
 
 }

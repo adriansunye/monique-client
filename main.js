@@ -20,7 +20,6 @@ $(document).ready(function(){
     product_section
   );
 
- 
   getProductInfo( $('#product_section'))
 });
 
