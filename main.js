@@ -1,18 +1,26 @@
 import './style.css'
-import $ from "./src/modules/jquery_module.js"
-import header_navigation from './src/components/navigation/header_navigation/header_navigation'
-import { setupHoverMenu } from './src/modules/hover_menu/hover_menu';
-import { setupNavigationItems } from './src/modules/navigation_items/navigation_items';
+import $ from "#modules/jquery_module.js"
+import header_navigation from '#components/navigation/header_navigation/header_navigation'
+import product_section from '#components/layout/sections/product_section/product_section'
+import { setupHoverMenu } from '#modules/hover_menu/hover_menu';
+import { setupNavigationItems } from '#modules/navigation_items/navigation_items';
+import { getProductInfo } from '#api/product_api'
     
 $(document).ready(function(){  
   $('#header_navigation').append(
     header_navigation,
   );
-  
+
   $("nav .hover-menu").each(function() {
     setupNavigationItems($( this ))
     setupHoverMenu($( this ))
   })
+
+  $('#product_section').append(
+    product_section
+  );
+
+  getProductInfo( $('#product_section'))
 });
 
 
