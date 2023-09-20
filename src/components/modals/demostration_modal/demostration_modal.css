@@ -1,0 +1,47 @@
+.modal-content {
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    top: 15vh;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    iframe{
+        width: 326px;
+        height: 185px;
+    }
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    iframe{
+        width: 426px;
+        height: 235px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    iframe{
+        width: 526px;
+        height: 295px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    iframe{
+        width: 725px;
+        height: 405px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    iframe{
+        width: 854px;
+        height: 480px;
+    }
+}

@@ -14,7 +14,8 @@
   "dependencies": {
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.1",
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "youtube-iframe": "^1.0.3"
   },
   "imports": {
     "#assets/*": "./assets/*",
