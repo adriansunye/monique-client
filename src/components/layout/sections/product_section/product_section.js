@@ -9,7 +9,7 @@ import './product_section.css'
 export default /*html*/ `
 <div class="container-fluid mt-5 pt-5">
     <div class="d-flex flex-column flex-xl-row justify-content-around">
-        <div class="d-flex flex-column-reverse flex-md-row justify-content-around align-items-center">
+        <div class="d-flex flex-column-reverse flex-md-row  align-items-center">
             <div class="titles-container d-flex flex-column">
                 <h4 class="text-muted" id="productName"></h4>
                 <h1  id="productDescription"></h1>
@@ -52,18 +52,20 @@ export default /*html*/ `
                         </div>
                     </div>
                 </div>
-                <div class="d-flex flex-column gap-2 gap-xl-4 mb-2" id="productInformation"></div>
-                <div class="card mb-3 bg-dark text-light" style="max-width: 450px;">
-                    <div class="d-flex flex-row align-items-center">
-                        <div class="video-hero-image">
-                            <img src="${productVideo}" class="card-img" alt="...">
-                            <button type="button" class="btn btn-link">${playButtonIcon}</button>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title" id="productSlogan"></h5>
+                <div class="d-flex flex-column gap-2 gap-xl-4" id="productInformation"></div>
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#demostrationModal">
+                    <div class="card bg-dark text-light" style="max-width: 400px;">
+                        <div class="d-flex flex-row align-items-center">
+                            <div class="video-hero-image">
+                                <img src="${productVideo}" class="card-img" alt="...">
+                                <div class="playButtonIcon">${playButtonIcon}</div>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title" id="productSlogan"></h5>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </button>
             </div>
         </div>
     </div>

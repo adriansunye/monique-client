@@ -1,4 +1,3 @@
-
 #inlineRadiogrey,
 #inlineRadiogrey:checked {
     background-color: grey;
@@ -9,30 +8,37 @@
     background-color: pink;
 }
 
-.titles-container{
+.titles-container {
     max-width: 500px;
 }
 
 .productImage {
     width: 90%;
+    max-width: 532px;
+    max-height: 630px;
 }
 
-.baby, .weigth {
+.baby,
+.weigth {
     width: 30%;
     height: 75%;
 }
 
-.video-hero-image { 
-    position: relative; 
+.video-hero-image {
+    position: relative;
 }
-.video-hero-image img { 
-    display: block; 
+
+.video-hero-image img {
+    display: block;
 }
-.video-hero-image button { 
-    position: absolute; 
+
+.video-hero-image .playButtonIcon {
+    position: absolute;
     width: 100%;
-    top: 0;
+    top: 36%;
     right: 0;
-    bottom: 0;
-    left: 0; 
 }
+
+.btn-check:focus + .btn, .btn:focus {
+    box-shadow: 0 0 0 0!important;
+  }
