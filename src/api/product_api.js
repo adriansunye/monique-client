@@ -1,13 +1,8 @@
+import { setupProductData } from "../modules/product_section/product_data";
+
 export async function getProductInfo(element) {
-    const response = await fetch("https://mocki.io/v1/e688e8d9-7092-4887-afe6-6cd05ee92ec0");
+    const response = await fetch("https://mocki.io/v1/1944c798-fa4a-4f0c-a2f4-d25952d454e6");
     const product = await response.json();
 
-    const setProduct = () => {
-        console.log(element.children('#productName'))
-        element.children('#productName').html(/*html*/ `
-        ${product.productName}
-        `
-    )
-    }
-    setProduct()
+    setupProductData(product)
 }

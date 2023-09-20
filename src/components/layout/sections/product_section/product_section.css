@@ -1,11 +1,11 @@
 
-#inlineRadioGrey,
-#inlineRadioGrey:checked {
+#inlineRadiogrey,
+#inlineRadiogrey:checked {
     background-color: grey;
 }
 
-#inlineRadioPurple,
-#inlineRadioPurple:checked {
+#inlineRadiopurple,
+#inlineRadiopurple:checked {
     background-color: pink;
 }
 
