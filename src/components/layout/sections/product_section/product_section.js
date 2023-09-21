@@ -61,7 +61,7 @@ export default /*html*/ `
                                 <div class="playButtonIcon">${playButtonIcon}</div>
                             </div>
                             <div class="card-body">
-                                <h5 class="card-title" id="productSlogan"></h5>
+                                <h5 class="card-title product-slogan"></h5>
                             </div>
                         </div>
                     </div>
