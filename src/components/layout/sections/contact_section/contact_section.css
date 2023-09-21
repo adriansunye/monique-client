@@ -1,8 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #contact_section .product-slogan {
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-top: -25%;
+        font-size: medium;
+    }
+    .btn-contant-sedtion{
+        padding: 5px!important;
     }
     
 }
@@ -10,22 +13,25 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     #contact_section .product-slogan {
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-top: -15%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     #contact_section .product-slogan {
-        margin-left: 30%;
-        margin-right: 30%;
+        margin-top: -5%;
+        margin-left: 27%;
+        margin-right: 27%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     #contact_section .product-slogan {
+        margin-top: 0;
         margin-left: 32%;
         margin-right: 32%;
     }
