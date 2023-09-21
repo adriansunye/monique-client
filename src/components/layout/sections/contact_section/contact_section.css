@@ -45,3 +45,7 @@
     
     }
 }
+
+.card-footer{
+    z-index: 2;
+}
