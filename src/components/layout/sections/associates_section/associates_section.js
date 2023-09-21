@@ -1,7 +1,5 @@
-
-
 export default /*html*/ `
-<div class="container-sm px-auto mt-5">
+<div class="container-sm px-auto my-5">
     <div class="d-flex flex-column flex-lg-row justify-content-around">
         <div class="d-flex flex-column justify-content-center align-self-center text-xs-center">
             <h3>We just keep growing 6.3k trusted companies</h3>

@@ -6,7 +6,6 @@ export function setupAssociatesCards() {
     const setAssociatesCards = () => {
         for (let index = 0; index < 8; index++) {
             let val = 'logo' + (index + 1);
-            console.log(folder + val + '.png')
             $("#associates_section .associates-cards").append( /*html*/`
                 <div class="col-md-8-auto ">
                     <div class="card h-100 text-dark bg-light text-center border-0">
