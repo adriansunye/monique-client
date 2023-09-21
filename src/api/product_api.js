@@ -1,7 +1,7 @@
 import { setupInformationCards } from "#modules/information_section/information_cards";
 import { setupProductData } from "#modules/product_section/product_data";
 
-const PRODUCT_API = "https://mocki.io/v1/1944c798-fa4a-4f0c-a2f4-d25952d454e6"
+const PRODUCT_API = "https://mocki.io/v1/3b47459f-68a1-42bf-a87e-105a8bf66233"
 const INFORMATION_API = "https://www.tridenia.com/maquetacio/list.php"
 
 
