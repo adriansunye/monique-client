@@ -20,13 +20,8 @@ export function setupColorOption(colors) {
                     product : 
                     productPurple
                 ),
-            )
-            
+            ) 
         });
-
     }
-
     setColorOption();
-
-
 }

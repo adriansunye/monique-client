@@ -22,13 +22,11 @@ export function setupProductData(product) {
         $('#productMaxWeigth').html(/*html*/ `
             ${product.maxWeigth}
         `),
-        $('#productSlogan').html(/*html*/ `
+        $('.product-slogan').html(/*html*/ `
             ${product.slogan}
         `),
         setupColorOption(product.colors),
         setupProductInformation(product.information)
     }
-
     setProduct();
-
 }
