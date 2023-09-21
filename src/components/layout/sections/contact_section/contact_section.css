@@ -1,47 +1,41 @@
-.modal-content {
-    background-color: transparent;
-    border: 0;
-    position: absolute;
-    top: 15vh;
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    iframe{
-        width: 326px;
-        height: 185px;
+    #contact_section .product-slogan {
+        margin-left: 15%;
+        margin-right: 15%;
     }
     
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    iframe{
-        width: 426px;
-        height: 235px;
+    #contact_section .product-slogan {
+        margin-left: 25%;
+        margin-right: 25%;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    iframe{
-        width: 526px;
-        height: 295px;
+    #contact_section .product-slogan {
+        margin-left: 30%;
+        margin-right: 30%;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    iframe{
-        width: 725px;
-        height: 405px;
+    #contact_section .product-slogan {
+        margin-left: 32%;
+        margin-right: 32%;
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    iframe{
-        width: 780px;
-        height: 440px;
+    #contact_section .product-slogan {
+        margin-left: 37%;
+        margin-right: 37%;
+    
     }
 }
