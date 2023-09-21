@@ -10,6 +10,9 @@ export function setupProductData(product) {
         $('#productDescription').html(/*html*/ `
             ${product.description}
         `),
+        $("#productDescription").html($("#productDescription")
+                                .text()
+                                .replace("Strength", "<span class='highlight-color'>Strength</span>"));
         $('#productDescriptionDetail').html(/*html*/ `
             ${product.descriptionDetail}
         `),

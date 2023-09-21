@@ -20,8 +20,8 @@
 
 .baby,
 .weigth {
-    width: 30%;
-    height: 75%;
+    width: 80px;
+    height: 80px;
 }
 
 .video-hero-image {
@@ -35,10 +35,19 @@
 .video-hero-image .playButtonIcon {
     position: absolute;
     width: 100%;
-    top: 36%;
-    right: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .btn-check:focus + .btn, .btn:focus {
     box-shadow: 0 0 0 0!important;
+}
+
+.product-slogan, .btn-link{
+    text-decoration: none;
+}
+
+.filter, .hover-filter:hover {
+    background-color: rgba(0, 0, 0, 0.5)
 }

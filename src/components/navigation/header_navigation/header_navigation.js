@@ -31,8 +31,11 @@ export default /*html*/ `
             <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">CONTACT US</a>
           </li>
           <hr class="d-block d-lg-none">
+          <li class="nav-item">
+            <div class="social-links d-lg-none d-flex flex-row justify-content-start align-items-center gap-3 mt-3"></div>
+          </li>
         </ul>
-        <ul class="navbar-nav me-5 mx-auto" style="--bs-scroll-height: 100px;">
+        <ul class="navbar-nav me-5 mx-auto d-none d-lg-flex" style="--bs-scroll-height: 100px;">
             <li class="nav-item me-3">
               <a class="nav-link" href="#">LOGIN / REGISTER</a>
           </li>

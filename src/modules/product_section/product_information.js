@@ -5,9 +5,9 @@ export function setupProductInformation(info) {
     const setProductInformation = () => {
         info.forEach((el) => {
             $("#productInformation").append(/*html*/`
-                <div class="d-flex flex-row">
+                <div class="d-flex flex-row gap-2">
                     <img class="check" src="${check}">
-                    <h6>${el}</h6>
+                    <h6 class="pt-1">${el}</h6>
                 </div>`
             )
         });
