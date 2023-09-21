@@ -1,12 +1,12 @@
 import $ from "#modules/jquery_module.js"
 import youtubeLogo from '#assets/images/associates/logo1.png'
-import slackLogo from '#assets/images/associates/logo1.png'
-import amazonLogo from '#assets/images/associates/logo2.png'
-import microsoftLogo from '#assets/images/associates/logo3.png'
-import lenovoLogo from '#assets/images/associates/logo4.png'
-import netflixLogo from '#assets/images/associates/logo5.png'
-import googleLogo from '#assets/images/associates/logo6.png'
-import dribbleLogo from '#assets/images/associates/logo7.png'
+import slackLogo from '#assets/images/associates/logo2.png'
+import amazonLogo from '#assets/images/associates/logo3.png'
+import microsoftLogo from '#assets/images/associates/logo4.png'
+import lenovoLogo from '#assets/images/associates/logo5.png'
+import netflixLogo from '#assets/images/associates/logo6.png'
+import googleLogo from '#assets/images/associates/logo7.png'
+import dribbleLogo from '#assets/images/associates/logo8.png'
 
 
 export function setupAssociatesCards() {
