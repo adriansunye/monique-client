@@ -6,6 +6,8 @@ import demostration_modal from '#components/modals/demostration_modal/demostrati
 import information_section from '#components/layout/sections/information_section/information_section';
 import contact_section from '#components/layout/sections/contact_section/contact_section';
 import associates_section from '#components/layout/sections/associates_section/associates_section';
+import footer_navigation from '#components/navigation/footer_navigation/footer_navigation'
+
 
 import { setupHoverMenu } from '#modules/hover_menu/hover_menu';
 import { setupNavigationItems } from '#modules/navigation_items/navigation_items';
@@ -13,6 +15,7 @@ import { getProductInfo } from '#api/product_api'
 import { setupDemostrationModal } from '#modules/product_section/close_modal';
 import { getGlobalInfo } from '#/api/product_api';
 import { setupAssociatesCards } from '#modules/associates_section/associates_cards';
+import { setupSocialLinks } from '#modules/social_links/social_links';
     
 $(document).ready(function(){  
   $('#header_navigation').append(
@@ -41,12 +44,15 @@ $(document).ready(function(){
     associates_section,
   );
 
-
+  $('#footer_navigation').append(
+    footer_navigation,
+  );
 
   setupDemostrationModal()
   getProductInfo()
   getGlobalInfo()
   setupAssociatesCards()
+  setupSocialLinks()
 });
 
 

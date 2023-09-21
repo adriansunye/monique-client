@@ -3,7 +3,7 @@ import babyBackground from '#assets/images/bg-baby.jpg'
 
 
 export default /*html*/ `
-<div class="card borde bg-dark text-white mt-5 rounded-0" >
+<div class="card bg-dark text-white mt-5 rounded-0" >
     <img src="${babyBackground}" class="card-img" alt="...">
     <div class="card-img-overlay text-white d-flex justify-content-center flex-column text-center"
     style="background-color: rgba(0, 0, 0, 0.5)">
