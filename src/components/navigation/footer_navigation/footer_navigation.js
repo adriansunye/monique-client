@@ -18,8 +18,8 @@ export default /*html*/ `
                     <img src="${footerBottomRightBackground}" class="img-fluid d-block" alt="...">
                     <div class="bg-light text-dark instagram-overlay d-flex flex-column justify-content-center text-center p-1"> 
                         <img class="instagram-icon mt-2" src="${instagramLogo}"/>
-                        <h6 class="mt-2">Share with #MoonCart</h6>
-                        <p class="small">Follow MoonCart for inspiration</p>
+                        <h6 class="mt-2 highlight-font">Share with #MoonCart</h6>
+                        <p class="small">Follow @MoonCart for inspiration</p>
                     </div>
                 </div>
             </div>
@@ -27,12 +27,12 @@ export default /*html*/ `
                 <div class="card-body d-flex flex-column mx-2">
                     <div class="d-flex flex-row justify-content-between">
                         <img src="${moniqueLogoWhite}"/>
-                        <div class="social-links"></div>
+                        <div class="social-links d-flex flex-row justify-content-end align-items-center gap-3 mt-3"></div>
                     </div>
                     <hr>
                     <div class="card-body d-flex flex-row justify-content-between justify-content-md-around footer-links flex-wrap gap-5">
                         <ul class="list-group list-unstyled gap-2">
-                            <li class="list-item mb-2">Our Stores</li>
+                            <li class="list-item mb-2 highlight-font">Our Stores</li>
                             <a class="link-unstyled" href=""><li class="list-item">New York</li></a>
                             <a class="link-unstyled" href=""><li class="list-item">London SF</li></a>
                             <a class="link-unstyled" href=""><li class="list-item">Edinburgh</li></a>
@@ -41,7 +41,7 @@ export default /*html*/ `
                             <a class="link-unstyled" href=""><li class="list-item">Las Vegas</li></a>
                         </ul>
                         <ul class="list-group list-unstyled gap-2">
-                            <li class="list-item mb-2">Useful Links</li>
+                            <li class="list-item mb-2 highlight-font">Useful Links</li>
                             <a class="link-unstyled" href=""><li class="list-item">Privacy Policy</li></a>
                             <a class="link-unstyled" href=""><li class="list-item">Returns</li></a>
                             <a class="link-unstyled" href=""><li class="list-item">Terms & Conditions</li></a>
@@ -50,7 +50,7 @@ export default /*html*/ `
                             <a class="link-unstyled" href=""><li class="list-item">Our Sitemap</li></a>
                         </ul>
                         <ul class="list-group list-unstyled gap-2">
-                            <li class="list-item mb-2">Footer Menu</li>
+                            <li class="list-item mb-2 highlight-font">Footer Menu</li>
                             <a class="link-unstyled" href=""><li class="list-item">Instagram Profile</li></a>
                             <a class="link-unstyled" href=""><li class="list-item">New Collection</li></a>
                             <a class="link-unstyled" href=""><li class="list-item">Woman Dress</li></a>
